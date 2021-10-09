@@ -8911,6 +8911,7 @@ fieldset:disabled .btn {
 
 .rounded-circle {
   border-radius: 50% !important;
+  width: 40px;
 }
 
 .rounded-pill {
@@ -12026,6 +12027,7 @@ label,
   align-items: center;
   justify-content: space-around;
   background-color: #1171af;
+  margin-bottom: 5rem;
 }
 
 .footer {
@@ -12036,6 +12038,10 @@ label,
 
 .navbar {
   background-color: #0887da;
+}
+a {
+  font-size: 20px;
+  font-weight: normal;
 }
 
 ul a {

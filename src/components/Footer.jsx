@@ -19,13 +19,19 @@ const Footer = () => {
             <Container>
               <Row>
                 <Col xs={6} md={4}>
-                  <Image src="src/img/facebook.png" roundedCircle />
+                  <a href="#">
+                    <Image src="/img/facebook.png" roundedCircle />
+                  </a>
                 </Col>
                 <Col xs={6} md={4}>
-                  <Image src="src/img/instagram.png" roundedCircle />
+                  <a href="#">
+                    <Image src="/img/instagram.png" roundedCircle />
+                  </a>
                 </Col>
                 <Col xs={6} md={4}>
-                  <Image src="src/img/instagram.png" roundedCircle />
+                  <a href="https://wa.me/3512660233">
+                    <Image src="/img/whatsapp.png" roundedCircle />
+                  </a>
                 </Col>
               </Row>
             </Container>
