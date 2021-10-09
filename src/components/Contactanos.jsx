@@ -3,16 +3,17 @@ import {
   Form,
   Row,
   Col,
-  Control,
   Container,
   FloatingLabel,
+  Button,
 } from "react-bootstrap";
-import { Avatar, Grid } from "@nextui-org/react";
 
 const Contactanos = () => {
   return (
     <div>
-      <h1>Contáctanos</h1>
+      <div className="header">
+        <h1>Contactanos</h1>
+      </div>
       <Container>
         <Form>
           <Row>
@@ -35,25 +36,12 @@ const Contactanos = () => {
       <hr />
       <Container>
         <FloatingLabel controlId="floatingTextarea2" label="Comentario">
-          <Form.Control
-            as="textarea"
-            placeholder="Leave a comment here"
-            style={{ height: "100px" }}
-          />
+          <Form.Control as="textarea" style={{ height: "100px" }} />
         </FloatingLabel>
+        <div className="btnSend">
+          <Button variant="outline-success">Enviar</Button>{" "}
+        </div>
       </Container>
-
-      <Grid.Container gap={1}>
-        <Grid>
-          <Avatar size="large" src="/avatars/avatar-6.png" zoomed />
-        </Grid>
-        <Grid>
-          <Avatar size="large" src="/avatars/avatar-2.png" zoomed />
-        </Grid>
-        <Grid>
-          <Avatar size="large" src="/avatars/avatar-1.png" zoomed />
-        </Grid>
-      </Grid.Container>
     </div>
   );
 };

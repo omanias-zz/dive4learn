@@ -1,11 +1,10 @@
 import React from "react";
-
 import { Container, Navbar, Nav } from "react-bootstrap";
 
 const NavBar = () => {
   return (
-    <div>
-      <Navbar bg="light" expand="lg">
+    <div className="page-container">
+      <Navbar collapseOnSelect expand="lg" sticky="top">
         <Container>
           <Navbar.Brand href="/">Div4Learn</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
