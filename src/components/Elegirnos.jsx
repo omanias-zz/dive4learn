@@ -9,16 +9,18 @@ const Elegirnos = () => {
 
       <div>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, quas,
-          cumque a dolorem itaque, expedita doloribus laborum voluptatum ratione
-          dolore ad aut inventore porro voluptates quis eius architecto nesciunt
-          ducimus.
+          El mundo educativo se vio revolucionado en los últimos años, y el desafío en
+          la educación superior de transformarse y adoptar nuevas tecnologías y procesos
+          se convirtió en una necesidad demandada por los estudiantes y las organizaciones
+          que están incorporando estas nuevas generaciones. El problema radica en que 
+          escasean los espacios de capacitación fiables para que esto sea posible. 
         </p>
         <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa quasi
-          consequatur odio qui, modi molestiae suscipit nulla reprehenderit amet
-          illo consectetur adipisci nam, voluptate quidem possimus laudantium,
-          labore minus ea?
+          En Dive4Learn somos conscientes de estos obstáculos, y para poder brindar
+          soluciones nos hemos especializado en transformaciones digitales de la educación. 
+          Somos un equipo comprometido en educación que no solo transforma cursos
+          presenciales en virtuales, sino que diseña experiencias de aprendizaje mediante las 
+          últimas tendencias en e-learning.
         </p>
       </div>
     </div>
