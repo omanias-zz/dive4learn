@@ -8,11 +8,11 @@ const Footer = () => {
       <div className="content-wrap">
         <hr />
         <div className="footerFather">
-          <Navbar.Brand>Div4Learn</Navbar.Brand>
+          <Navbar.Brand>Dive4Learn</Navbar.Brand>
           <div className="footer">
             <p>Aguirre Cámara 15 - Buenos Aires - Argentina</p>
             <p>011-XXXXX-XXXXX</p>
-            <p>div4learn@gmail.com</p>
+            <p>info@dive4learn.com</p>
           </div>
 
           <div>
