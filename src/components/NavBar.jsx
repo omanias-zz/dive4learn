@@ -6,7 +6,7 @@ const NavBar = () => {
     <div className="page-container">
       <Navbar collapseOnSelect expand="lg" sticky="top">
         <Container>
-          <Navbar.Brand href="/">Div4Learn</Navbar.Brand>
+          <Navbar.Brand href="/">Dive4Learn</Navbar.Brand>
           <Navbar.Toggle aria-controls="basic-navbar-nav" />
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="me-auto">
