@@ -5,7 +5,19 @@ import { Navbar } from "react-bootstrap";
 const Footer = () => {
   return (
     <div>
-      <div className="content-wrap">
+      <div className="footerFather">
+        <div className="footer">
+          <p className="footer-texto">Todos los derechos reservados © Dive4Learn</p>
+        </div>
+      </div>
+    </div>
+  );
+};
+
+export default Footer;
+
+
+{/* <div className="content-wrap">
         <hr />
         <div className="footerFather">
           <Navbar.Brand>Dive4Learn</Navbar.Brand>
@@ -37,9 +49,4 @@ const Footer = () => {
             </Container>
           </div>
         </div>
-      </div>
-    </div>
-  );
-};
-
-export default Footer;
+      </div> */}

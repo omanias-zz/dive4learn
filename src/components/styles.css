@@ -1,0 +1,50 @@
+.nav-general {
+    background-color: #125D98;
+}
+
+.nav-logo {
+    width: 20vw;
+}
+
+.home-imagen {
+    width: 100%;
+}
+
+.home-texto {
+    margin: 5% 15% 0 15%;
+    font-family: 'Roboto', sans-serif;
+    color: #093558;
+    text-align: center;
+}
+
+.home-texto1 {
+    font-size: 2rem;
+    margin-bottom: 4%;
+}
+
+.home-texto2 {
+    font-size: 1.2rem;
+}
+
+.home-mail {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #F5A962; 
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 90%;
+    margin-bottom: 2%;
+}
+
+.home-mail-icono {
+    width: 20px;
+    height: 15px;
+}
+
+.footer-texto {
+    color: white;
+    margin-bottom: 0;
+    font-size: 0.85rem;
+}
