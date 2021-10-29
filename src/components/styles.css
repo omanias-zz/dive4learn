@@ -1,46 +1,65 @@
 .nav-general {
     background-color: #125D98;
+    font-family: 'Roboto', sans-serif;
+    height: 7rem;
+    background: linear-gradient(to bottom, #1876C0, #072e4D);
 }
 
 .nav-logo {
-    width: 20vw;
+    width: 68%;
+}
+
+#nav-menu {
+    width: 100%;
+}
+
+#nav-item {
+    color: white;
+    font-size: 0.8rem;
+    margin-right: 4.1%;
 }
 
 .home-imagen {
     width: 100%;
 }
 
+.home {
+    display:flex;
+}
+
 .home-texto {
-    margin: 5% 15% 0 15%;
+    margin: 5% 10% 0 10%;
     font-family: 'Roboto', sans-serif;
     color: #093558;
     text-align: center;
 }
 
 .home-texto1 {
-    font-size: 2rem;
-    margin-bottom: 4%;
+    font-size: 2.3rem;
+    margin: 0 5%;
 }
 
 .home-texto2 {
-    font-size: 1.2rem;
+    font-size: 1.25rem;
+    margin: 0 5% 5% 5%;
 }
 
 .home-mail {
-    width: 40px;
-    height: 40px;
+    width: 50px;
+    height: 50px;
     border-radius: 50%;
+    border: 2px solid rgba(0, 0, 0, 0.25);
+    box-shadow: 0 2px 0px black;
     background-color: #F5A962; 
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-left: 90%;
-    margin-bottom: 2%;
+    margin-left: 96%;
 }
 
 .home-mail-icono {
-    width: 20px;
-    height: 15px;
+    width: 28px;
+    height: 20px;
 }
 
 .footer-texto {
