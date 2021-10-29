@@ -1,10 +1,11 @@
 import React from "react";
 import './styles.css';
+import { Carrusel } from './Carrusel.jsx';
 
 const Home = () => {
   return (
     <div>
-      <img src="/img/imagen1recortadaYAchicada.png" className="home-imagen" alt="clase virtual" />
+      <Carrusel />
       <div className="home">
         <div className="home-texto">
           <h1 className="home-texto1">Optimizamos la experiencia del aprendizaje, mediante la transformación digital</h1>
