@@ -20,7 +20,7 @@
     margin-right: 7%;
 }
 
-.home-imagen {
+.imagenes {
     width: 100%;
 }
 
@@ -37,12 +37,13 @@
 
 .home-texto1 {
     font-size: 2.3rem;
-    margin: 0 5%;
+    font-weight: 500;
+    margin: 0 10%;
 }
 
 .home-texto2 {
     font-size: 1.25rem;
-    margin: 0 5% 5% 5%;
+    margin: 0 12% 5% 12%;
 }
 
 .home-mail {
@@ -56,6 +57,8 @@
     align-items: center;
     justify-content: center;
     margin-left: 96%;
+    position: relative;
+    top: 15%;
 }
 
 .home-mail-icono {
@@ -63,8 +66,75 @@
     height: 20px;
 }
 
+.elegirnos {
+    color: #125D98;
+    font-family: 'Roboto', sans-serif;
+}
+
+.elegirnos-header {
+    position: relative;
+    display: inline-block;
+    /* text-align: center; */
+}
+
+.elegirnos-fTitulo {
+    position: absolute;
+    top: 60%;
+    background-color: #ffffff ;
+    width: 100%;
+    opacity: 0.4;
+}
+
+.elegirnos-titulo {
+    margin-left: 52%;
+    font-size: 3.8rem;
+    font-weight: 700;
+    opacity: 1;
+}
+
+.elegirnos-cuerpo {
+    margin: 6% 0 6% 8%;
+    line-height: 10px;
+    display: flex;
+}
+
+.elegirnos-textos {
+    width: 70%;
+}
+
+.elegirnos-texto1 {
+    font-size: 1rem;
+    margin-bottom: 10%;
+}
+
+.elegirnos-texto2 {
+    font-size: 1.1rem;
+}
+
+.elegirnos-bold {
+    font-weight: 700;
+}
+
+.elegirnos-naranja {
+    color: #F5A962; 
+}
+
+.elegirnos-cuerpo-imagen {
+    margin-right: 10%;
+}
+
+.elegirnos-mundo {
+    width: 100%;
+    height: 90%;
+}
+
+.footer-general {
+    margin-bottom: 0;
+}
+
 .footer-texto {
     color: white;
     margin-bottom: 0;
     font-size: 0.85rem;
+    font-weight: 500;
 }
