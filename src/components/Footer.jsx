@@ -5,7 +5,7 @@ import { Navbar } from "react-bootstrap";
 const Footer = () => {
   return (
     <div>
-      <div className="footerFather">
+      <div className="footerFather footer-general">
         <div className="footer">
           <p className="footer-texto">Todos los derechos reservados © Dive4Learn</p>
         </div>
