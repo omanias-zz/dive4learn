@@ -12051,7 +12051,9 @@ ul a {
 }
 
 .btnSend {
+  padding: 1rem;
+  font-size: 2rem;
+  margin-top: 1rem;
   display: flex;
   justify-content: flex-end;
-  margin-top: 1rem;
 }

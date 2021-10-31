@@ -14,7 +14,23 @@ const Contactanos = () => {
       <div className="header">
         <h1>Contactanos</h1>
       </div>
+
       <Container>
+        <Form>
+          <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
+            <Form.Label>Correo Electrónico</Form.Label>
+            <Form.Control type="email" placeholder="" />
+          </Form.Group>
+          <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
+            <Form.Label>Tu consulta</Form.Label>
+            <Form.Control as="textarea" rows={3} />
+          </Form.Group>
+        </Form>
+        <div className="btnSend">
+          <Button variant="outline-success">Enviar</Button>{" "}
+        </div>
+      </Container>
+      {/* <Container>
         <Form>
           <Row>
             <Col>
@@ -33,15 +49,11 @@ const Contactanos = () => {
           </Row>
         </Form>
       </Container>
-      <hr />
       <Container>
         <FloatingLabel controlId="floatingTextarea2" label="Comentario">
           <Form.Control as="textarea" style={{ height: "100px" }} />
         </FloatingLabel>
-        <div className="btnSend">
-          <Button variant="outline-success">Enviar</Button>{" "}
-        </div>
-      </Container>
+      </Container> */}
     </div>
   );
 };
