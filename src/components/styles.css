@@ -1,140 +1,174 @@
 .nav-general {
-    background-color: #125D98;
-    font-family: 'Roboto', sans-serif;
-    height: 7rem;
-    background: linear-gradient(to bottom, #1876C0, #072e4D);
+  background-color: #125d98;
+  font-family: "Roboto", sans-serif;
+  height: 7rem;
+  background: linear-gradient(to bottom, #1876c0, #072e4d);
 }
 
 .nav-logo {
-    width: 68%;
+  width: 68%;
 }
 
 #nav-menu {
-    width: 100%;
-    margin-left: 5%;
+  width: 100%;
+  margin-left: 5%;
 }
 
 #nav-item {
-    color: white;
-    font-size: 0.9rem;
-    margin-right: 7%;
+  color: white;
+  font-size: 0.9rem;
+  margin-right: 7%;
 }
 
 .imagenes {
-    width: 100%;
+  width: 100%;
 }
 
 .home {
-    display:flex;
+  display: flex;
 }
 
 .home-texto {
-    margin: 5% 10% 0 10%;
-    font-family: 'Roboto', sans-serif;
-    color: #093558;
-    text-align: center;
+  margin: 5% 10% 0 10%;
+  font-family: "Roboto", sans-serif;
+  color: #093558;
+  text-align: center;
 }
 
 .home-texto1 {
-    font-size: 2.3rem;
-    font-weight: 500;
-    margin: 0 10%;
+  font-size: 2.3rem;
+  font-weight: 500;
+  margin: 0 10%;
 }
 
 .home-texto2 {
-    font-size: 1.25rem;
-    margin: 0 12% 5% 12%;
+  font-size: 1.25rem;
+  margin: 0 12% 5% 12%;
 }
 
 .home-mail {
-    width: 50px;
-    height: 50px;
-    border-radius: 50%;
-    border: 2px solid rgba(0, 0, 0, 0.25);
-    box-shadow: 0 2px 0px black;
-    background-color: #F5A962; 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-left: 96%;
-    position: relative;
-    top: 15%;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: 2px solid rgba(0, 0, 0, 0.25);
+  box-shadow: 0 2px 0px black;
+  background-color: #f5a962;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 96%;
+  position: relative;
+  top: 15%;
 }
 
 .home-mail-icono {
-    width: 28px;
-    height: 20px;
+  width: 28px;
+  height: 20px;
 }
 
 .elegirnos {
-    color: #125D98;
-    font-family: 'Roboto', sans-serif;
+  color: #125d98;
+  font-family: "Roboto", sans-serif;
 }
 
 .elegirnos-header {
-    position: relative;
-    display: inline-block;
-    /* text-align: center; */
+  position: relative;
+  display: inline-block;
+  /* text-align: center; */
 }
 
 .elegirnos-fTitulo {
-    position: absolute;
-    top: 60%;
-    background-color: #ffffff ;
-    width: 100%;
-    opacity: 0.4;
+  position: absolute;
+  top: 60%;
+  background-color: #ffffff;
+  width: 100%;
+  opacity: 0.4;
 }
 
 .elegirnos-titulo {
-    margin-left: 52%;
-    font-size: 3.8rem;
-    font-weight: 700;
-    opacity: 1;
+  margin-left: 52%;
+  font-size: 3.8rem;
+  font-weight: 700;
+  opacity: 1;
 }
 
 .elegirnos-cuerpo {
-    margin: 6% 0 6% 8%;
-    line-height: 10px;
-    display: flex;
+  margin: 6% 0 6% 8%;
+  line-height: 10px;
+  display: flex;
 }
 
 .elegirnos-textos {
-    width: 70%;
+  width: 70%;
 }
 
 .elegirnos-texto1 {
-    font-size: 1rem;
-    margin-bottom: 10%;
+  font-size: 1rem;
+  margin-bottom: 10%;
 }
 
 .elegirnos-texto2 {
-    font-size: 1.1rem;
+  font-size: 1.1rem;
 }
 
 .elegirnos-bold {
-    font-weight: 700;
+  font-weight: 700;
 }
 
 .elegirnos-naranja {
-    color: #F5A962; 
+  color: #f5a962;
 }
 
 .elegirnos-cuerpo-imagen {
-    margin-right: 10%;
+  margin-right: 10%;
 }
 
 .elegirnos-mundo {
-    width: 100%;
-    height: 90%;
+  width: 100%;
+  height: 90%;
 }
 
 .footer-general {
-    margin-bottom: 0;
+  margin-bottom: 0;
 }
 
 .footer-texto {
-    color: white;
-    margin-bottom: 0;
-    font-size: 0.85rem;
-    font-weight: 500;
+  color: white;
+  margin-bottom: 0;
+  font-size: 0.85rem;
+  font-weight: 500;
+}
+
+.textServices {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 35px;
+  letter-spacing: 0.005em;
+
+  color: #125d98;
+}
+
+.textServices1 {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 48px;
+  line-height: 56px;
+  text-align: center;
+  letter-spacing: 0.005em;
+
+  color: #1782d7;
+}
+
+.headerServices {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 93px;
+  line-height: 109px;
+  /* identical to box height */
+
+  color: #125d98;
 }

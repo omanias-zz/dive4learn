@@ -5,7 +5,7 @@ const Elegirnos = () => {
     <div className="elegirnos">
       <div className="elegirnos-header">
         <img
-          src="/img/elegirnos1500.png"
+          src="/img/elegirnos.png"
           className="img-fluid  "
           alt="mirada virtual"
         />
