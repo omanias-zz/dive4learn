@@ -5,52 +5,53 @@ const Servicios = () => {
   return (
     <div>
       <div className="header">
-        <h1>Servicios</h1>
+        <h1>Consultoria</h1>
       </div>
 
-      <CardGroup>
-        <Card>
-          <Card.Img variant="top" src="holder.js/100px160" />
-          <Card.Body>
-            <Card.Title>Card title</Card.Title>
-            <Card.Text>
-              This is a wider card with supporting text below as a natural
-              lead-in to additional content. This content is a little bit
-              longer.
-            </Card.Text>
-          </Card.Body>
-          <Card.Footer>
-            <small className="text-muted">Last updated 3 mins ago</small>
-          </Card.Footer>
-        </Card>
-        <Card>
-          <Card.Img variant="top" src="holder.js/100px160" />
-          <Card.Body>
-            <Card.Title>Card title</Card.Title>
-            <Card.Text>
-              This card has supporting text below as a natural lead-in to
-              additional content.{" "}
-            </Card.Text>
-          </Card.Body>
-          <Card.Footer>
-            <small className="text-muted">Last updated 3 mins ago</small>
-          </Card.Footer>
-        </Card>
-        <Card>
-          <Card.Img variant="top" src="holder.js/100px160" />
-          <Card.Body>
-            <Card.Title>Card title</Card.Title>
-            <Card.Text>
-              This is a wider card with supporting text below as a natural
-              lead-in to additional content. This card has even longer content
-              than the first to show that equal height action.
-            </Card.Text>
-          </Card.Body>
-          <Card.Footer>
-            <small className="text-muted">Last updated 3 mins ago</small>
-          </Card.Footer>
-        </Card>
-      </CardGroup>
+      <div>
+        <h3>¿Cuál es nuestro enfoque?</h3>
+      </div>
+      <div>
+        <p>
+          Miramos la organización como un <strong>concepto sistémico</strong>{" "}
+          para poder trabajar en conjunto con el cliente, implementando las
+          mejores tecnologías y estrategias personalizadas.
+        </p>
+      </div>
+
+      <div className="header">
+        <h1>Desarrollo de cursos</h1>
+      </div>
+
+      <div>
+        <h3>¿Cómo podemos ayudarte?</h3>
+      </div>
+
+      <div>
+        <p>
+          Llevamos a cabo los procesos para la{" "}
+          <strong>creación de cursos on-line</strong>, fomentando una
+          experiencia de aprendizaje enriquecedora. También proponemos el
+          servicio de <strong>mejora continua</strong>, evaluando la experiencia
+          vivida con el fin de mejorar la siguiente cursada.
+        </p>
+      </div>
+
+      <div className="header">
+        <h1>Capacitación</h1>
+      </div>
+
+      <div>
+        <h3>¿Qué te ofrecemos?</h3>
+      </div>
+
+      <div>
+        <p>
+          Brindamos <strong>entrenamiento</strong> para docentes y estudiantes,
+          orientando el uso de nuevas tecnologías educativas y como transicionar
+          las clases convencionales al <strong>e-learning</strong>.
+        </p>
+      </div>
     </div>
   );
 };
