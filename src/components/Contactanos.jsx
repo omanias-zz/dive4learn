@@ -11,49 +11,56 @@ import {
 const Contactanos = () => {
   return (
     <div>
-      <div className="header">
-        <h1>Contactanos</h1>
+      <div>
+        <img src="./img/contact.png" alt="" />
+      </div>
+
+      <div className="textServices1">
+        <h3>¡Comunicate con nosotros!</h3>
+      </div>
+
+      <div className="container">
+        <p>
+          Completando los siguientes datos podremos avanzar para potenciar tu
+          proyecto
+        </p>
       </div>
 
       <Container>
         <Form>
-          <Form.Group className="mb-3" controlId="exampleForm.ControlInput1">
-            <Form.Label>Correo Electrónico</Form.Label>
-            <Form.Control type="email" placeholder="" />
-          </Form.Group>
-          <Form.Group className="mb-3" controlId="exampleForm.ControlTextarea1">
-            <Form.Label>Tu consulta</Form.Label>
-            <Form.Control as="textarea" rows={3} />
-          </Form.Group>
+          <div className="container-form">
+            <div className="row">
+              <div class="col-sm-6">
+                <Form.Group className="mb-3">
+                  <Form.Label>Nombre</Form.Label>
+                  <Form.Control type="text" placeholder="" />
+                </Form.Group>
+              </div>
+
+              <div class="col-sm-6">
+                <Form.Group className="mb-3">
+                  <Form.Label>Correo Electrónico</Form.Label>
+                  <Form.Control type="email" placeholder="" />
+                </Form.Group>
+              </div>
+            </div>
+          </div>
+
+          <div className="container-form">
+            <Form.Group className="mb-3">
+              <Form.Label>Asunto</Form.Label>
+              <Form.Control type="text" placeholder="" />
+            </Form.Group>
+            <Form.Group className="mb-3">
+              <Form.Label>Tu consulta</Form.Label>
+              <Form.Control as="textarea" rows={3} />
+            </Form.Group>
+          </div>
         </Form>
         <div className="btnSend">
           <Button variant="outline-success">Enviar</Button>{" "}
         </div>
       </Container>
-      {/* <Container>
-        <Form>
-          <Row>
-            <Col>
-              <FloatingLabel controlId="floatingInputGrid" label="Nombre">
-                <Form.Control type="text" placeholder="Nombre" />
-              </FloatingLabel>
-            </Col>
-            <Col>
-              <FloatingLabel
-                controlId="floatingInputGrid"
-                label="Correo electrónico"
-              >
-                <Form.Control type="email" placeholder="name@example.com" />
-              </FloatingLabel>
-            </Col>
-          </Row>
-        </Form>
-      </Container>
-      <Container>
-        <FloatingLabel controlId="floatingTextarea2" label="Comentario">
-          <Form.Control as="textarea" style={{ height: "100px" }} />
-        </FloatingLabel>
-      </Container> */}
     </div>
   );
 };
