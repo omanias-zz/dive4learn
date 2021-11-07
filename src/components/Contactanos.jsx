@@ -15,11 +15,11 @@ const Contactanos = () => {
         <img src="./img/contact.png" alt="" />
       </div>
 
-      <div className="textServices1">
-        <h3>¡Comunicate con nosotros!</h3>
-      </div>
-
       <div className="container">
+        <div className="textServices1">
+          <h3>¡Comunicate con nosotros!</h3>
+        </div>
+
         <p>
           Completando los siguientes datos podremos avanzar para potenciar tu
           proyecto
@@ -58,7 +58,7 @@ const Contactanos = () => {
           </div>
         </Form>
         <div className="btnSend">
-          <Button variant="outline-success">Enviar</Button>{" "}
+          <Button type="submit">Enviar</Button>{" "}
         </div>
       </Container>
     </div>
