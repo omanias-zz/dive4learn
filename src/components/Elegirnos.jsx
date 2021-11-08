@@ -13,71 +13,42 @@ const Elegirnos = () => {
           <h1 className="elegirnos-titulo">¿Por qué elegirnos?</h1>
         </div>
       </div>
-      <div className="elegirnos-cuerpo">
-        <div className="elegirnos-textos">
-          <div className="elegirnos-texto1">
+      <div className="container">
+        <div className="row">
+          <div className="col-sm-8">
             <p>
-              El <span className="elegirnos-bold">mundo educativo</span> se vio
-              revolucionado en los últimos años, y el desafío en la
-            </p>
-            <p>
-              educación superior de{" "}
-              <span className="elegirnos-bold">transformarse</span> y adoptar
-              nuevas tecnologías y procesos se
-            </p>
-            <p>
-              convirtió en una <span className="elegirnos-bold">necesidad</span>{" "}
-              demandada por los estudiantes y las organizaciones que
-            </p>
-            <p>
-              están incorporando estas nuevas generaciones.{" "}
-              <span className="elegirnos-bold">El problema radica en que</span>
-            </p>
-            <p>
-              <span className="elegirnos-bold">
-                escasean los espacios de capacitación fiables para que esto sea
-              </span>
-            </p>
-            <p>
-              <span className="elegirnos-bold">posible.</span>
-            </p>
-          </div>
-          <div className="elegirnos-texto2">
-            <p>
-              <span className="elegirnos-bold">En</span>{" "}
-              <span className="elegirnos-bold elegirnos-naranja">
-                Dive4Learn
+              El <strong>mundo educativo</strong> se vio revolucionado en los
+              últimos años, y el desafío en la educación superior de{" "}
+              <strong>transformarse</strong> y adoptar nuevas tecnologías y
+              procesos se convirtió en una <strong>necesidad</strong> demandada
+              por los estudiantes y las organizaciones que están incorporando
+              estas nuevas generaciones.{" "}
+              <strong>
+                El problema radica en que escasean los espacios de capacitación
+                fiables para que esto sea posible.
+              </strong>
+              <br />
+              En{" "}
+              <span className="elegirnos-naranja">
+                <strong>Dive4Learn</strong>
               </span>{" "}
-              somos conscientes de estos obstáculos, y para poder
-            </p>
-            <p>
-              brindar soluciones, nos hemos especializado en{" "}
-              <span className="elegirnos-bold">transformaciones</span>
-            </p>
-            <p>
-              <span className="elegirnos-bold">digitales de la educación.</span>
-            </p>
-            <p>
-              Somos un equipo comprometido en educación que no solo transforma
-            </p>
-            <p>
-              cursos presenciales en virtuales, sino que diseña{" "}
-              <span className="elegirnos-bold">experiencias de</span>
-            </p>
-            <p>
-              <span className="elegirnos-bold">aprendizaje</span> mediante las
-              últimas tendencias en{" "}
-              <span className="elegirnos-bold">e-learning.</span>
+              somos conscientes de estos obstáculos, y para poder brindar
+              soluciones, nos hemos especializado en{" "}
+              <strong>transformaciones digitales de la educación.</strong> Somos
+              un equipo comprometido en educación que no solo transforma cursos
+              presenciales en virtuales, sino que diseña{" "}
+              <strong>experiencias de aprendizaje</strong> mediante las últimas
+              tendencias en <strong>e-learning.</strong>
             </p>
           </div>
-        </div>
-        <div>
-          <div className="elegirnos-cuerpo-imagen">
-            <img
-              className="elegirnos-mundo"
-              src="/img/elegirnos-mundo.png"
-              alt="mundo conectado"
-            />
+          <div className="col-sm-4">
+            <div className="elegirnos-cuerpo-imagen">
+              <img
+                className="elegirnos-mundo"
+                src="/img/elegirnos-mundo.png"
+                alt="mundo conectado"
+              />
+            </div>
           </div>
         </div>
       </div>
