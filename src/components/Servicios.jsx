@@ -8,7 +8,7 @@ const Servicios = () => {
       </div>
 
       <div className="headerServices">
-        <h1>Consultoria</h1>
+        <h1 id="consultoria">Consultoria</h1>
       </div>
 
       <div className="container">
