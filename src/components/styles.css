@@ -200,3 +200,20 @@ p {
   font-size: 1.3rem;
   color: #1876c0;
 }
+
+.navbar {
+  justify-content: center;
+  background-color: #125d98;
+}
+
+.nav-general {
+  background-color: #125d98;
+  font-family: "Roboto", sans-serif;
+  height: 7rem;
+  padding-left: 7rem;
+  background: linear-gradient(to bottom, #1876c0, #072e4d);
+}
+
+.navbar-light .navbar-toggler {
+  margin-right: 7rem;
+}
