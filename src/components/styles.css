@@ -87,7 +87,7 @@
 
 .elegirnos-titulo {
   margin-left: 52%;
-  font-size: 3.8rem;
+  font-size: 3.7rem;
   font-weight: 700;
   opacity: 1;
 }
@@ -199,4 +199,46 @@ h3 {
 p {
   font-size: 1.3rem;
   color: #1876c0;
+}
+
+/* MEDIA QUERIES */
+@media (max-width: 1200px) {
+    .elegirnos-titulo {
+        margin-left: 50%;
+        font-size: 3.4rem;
+    }
+}
+
+@media (max-width: 992px) {
+    .elegirnos-titulo {
+        font-size: 2.65rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .elegirnos-titulo {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 576px) {
+    .elegirnos-fTitulo {
+        top: 55%;
+        max-height: 5vh;
+    } 
+    .elegirnos-titulo {
+        font-size: 1.5rem;
+        padding-top: 0.8%;
+    }
+}
+
+@media (max-width: 435px) {
+    .elegirnos-fTitulo {
+        top: 53%;
+        max-height: 4vh;
+    }
+    .elegirnos-titulo {
+        font-size: 1rem;
+        padding-top: 0.5%;
+    }
 }
