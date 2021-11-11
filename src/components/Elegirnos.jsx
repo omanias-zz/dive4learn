@@ -2,15 +2,15 @@ import React from "react";
 
 const Elegirnos = () => {
   return (
-    <div className="elegirnos">
-      <div className="elegirnos-header">
+    <div className="encabezado">
+      <div className="header-general">
         <img
           src="/img/elegirnos.png"
-          className="img-fluid  "
+          className="img-fluid"
           alt="mirada virtual"
         />
-        <div className="elegirnos-fTitulo">
-          <h1 className="elegirnos-titulo">¿Por qué elegirnos?</h1>
+        <div className="header-fTitulo">
+          <h1 className="header-titulo">¿Por qué elegirnos?</h1>
         </div>
       </div>
       <div className="container">
