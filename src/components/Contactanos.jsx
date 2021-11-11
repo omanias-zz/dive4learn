@@ -5,11 +5,7 @@ const Contactanos = () => {
   return (
     <div className="encabezado">
       <div className="header-general">
-        <img
-          src="./img/contact.png"
-          className="img-fluid"
-          alt="uso celular"
-        />
+        <img src="./img/contact.png" className="img-fluid" alt="uso celular" />
         <div className="header-fTitulo">
           <h1 className="header-titulo">Contactanos</h1>
         </div>
@@ -26,7 +22,11 @@ const Contactanos = () => {
         </p>
       </div>
 
-      <Container>
+      <Container
+        action="mailto:ojmanias1985@gmail.com"
+        method="post"
+        enctype="text/plain"
+      >
         <Form>
           <div className="container-form">
             <div className="row">
@@ -58,7 +58,9 @@ const Contactanos = () => {
           </div>
         </Form>
         <div className="btnSend">
-          <Button type="submit">Enviar</Button>{" "}
+          <Button>
+            <a href="mailto:pruebaFede@gmail.com">Enviar</a>
+          </Button>{" "}
         </div>
       </Container>
     </div>
