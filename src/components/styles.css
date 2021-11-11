@@ -1,8 +1,9 @@
 .nav-general {
-  background-color: #125d98;
-  font-family: "Roboto", sans-serif;
-  height: 7rem;
-  background: linear-gradient(to bottom, #1876c0, #072e4d);
+    background-color: #125d98;
+    font-family: "Roboto", sans-serif;
+    height: 7rem;
+    padding-left: 7rem;
+    background: linear-gradient(to bottom, #1876c0, #072e4d);
 }
 
 .nav-logo {
@@ -19,6 +20,15 @@
   font-size: 0.9rem;
   margin-right: 7%;
 }
+
+.navbar {
+    justify-content: center;
+    background-color: #125d98;
+  }
+  
+.navbar-light .navbar-toggler {
+    margin-right: 7rem;
+  }
 
 .imagenes {
   width: 100%;
@@ -66,18 +76,17 @@
   height: 20px;
 }
 
-.elegirnos {
+.encabezado {
   color: #125d98;
   font-family: "Roboto", sans-serif;
 }
 
-.elegirnos-header {
+.header-general {
   position: relative;
   display: inline-block;
-  /* text-align: center; */
 }
 
-.elegirnos-fTitulo {
+.header-fTitulo {
   position: absolute;
   top: 60%;
   background-color: #ffffff;
@@ -85,11 +94,19 @@
   opacity: 0.4;
 }
 
-.elegirnos-titulo {
+.header-titulo {
   margin-left: 52%;
   font-size: 3.7rem;
   font-weight: 700;
   opacity: 1;
+}
+
+.servicios-fTitulo {
+    top: 70%;
+}
+
+.servicios-titulo {
+    margin-left: 65%;
 }
 
 .elegirnos-cuerpo {
@@ -203,58 +220,42 @@ p {
 
 /* MEDIA QUERIES */
 @media (max-width: 1200px) {
-    .elegirnos-titulo {
+    .header-titulo {
         margin-left: 50%;
         font-size: 3.4rem;
     }
 }
 
 @media (max-width: 992px) {
-    .elegirnos-titulo {
+    .header-titulo {
         font-size: 2.65rem;
     }
 }
 
 @media (max-width: 768px) {
-    .elegirnos-titulo {
+    .header-titulo {
         font-size: 2rem;
     }
 }
 
 @media (max-width: 576px) {
-    .elegirnos-fTitulo {
+    .header-fTitulo {
         top: 55%;
         max-height: 5vh;
     } 
-    .elegirnos-titulo {
+    .header-titulo {
         font-size: 1.5rem;
         padding-top: 0.8%;
     }
 }
 
 @media (max-width: 435px) {
-    .elegirnos-fTitulo {
+    .header-fTitulo {
         top: 53%;
         max-height: 4vh;
     }
-    .elegirnos-titulo {
+    .header-titulo {
         font-size: 1rem;
         padding-top: 0.5%;
     }
-}
-.navbar {
-  justify-content: center;
-  background-color: #125d98;
-}
-
-.nav-general {
-  background-color: #125d98;
-  font-family: "Roboto", sans-serif;
-  height: 7rem;
-  padding-left: 7rem;
-  background: linear-gradient(to bottom, #1876c0, #072e4d);
-}
-
-.navbar-light .navbar-toggler {
-  margin-right: 7rem;
 }

@@ -3,9 +3,16 @@ import { Form, Container, Button } from "react-bootstrap";
 
 const Contactanos = () => {
   return (
-    <div>
-      <div>
-        <img src="./img/contact.png" alt="" />
+    <div className="encabezado">
+      <div className="header-general">
+        <img
+          src="./img/contact.png"
+          className="img-fluid"
+          alt="uso celular"
+        />
+        <div className="header-fTitulo">
+          <h1 className="header-titulo">Contactanos</h1>
+        </div>
       </div>
 
       <div className="container">

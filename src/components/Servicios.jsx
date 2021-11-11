@@ -3,12 +3,17 @@ import React from "react";
 const Servicios = () => {
   return (
     <div>
-      <div>
-        <img src="./img/consultoria.png" alt="" />
-      </div>
-
-      <div className="headerServices">
-        <h1 id="consultoria">Consultoria</h1>
+      <div className="encabezado" >
+        <div className="header-general">
+          <img
+            src="./img/consultoria.png"
+            className="img-fluid"
+            alt="reunion de negocios"
+          />
+          <div className="header-fTitulo servicios-fTitulo">
+            <h1 className="header-titulo servicios-titulo">Consultoría</h1>
+          </div>
+        </div>
       </div>
 
       <div className="container">
