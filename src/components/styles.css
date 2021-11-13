@@ -88,25 +88,20 @@
 
 .header-fTitulo {
   position: absolute;
-  top: 60%;
-  background-color: #ffffff;
+  bottom: 10%;
+  background-color: rgba(255, 255, 255, 0.4);
   width: 100%;
-  opacity: 0.4;
 }
 
 .header-titulo {
-  margin-left: 52%;
+  text-align-last: end;
+  margin-right: 10%;
   font-size: 3.7rem;
-  font-weight: 700;
-  opacity: 1;
+  font-weight: bold;
 }
 
 .servicios-fTitulo {
-  top: 70%;
-}
-
-.servicios-titulo {
-  margin-left: 65%;
+  bottom: 0;
 }
 
 .elegirnos-cuerpo {
@@ -225,8 +220,11 @@ a {
 
 /* MEDIA QUERIES */
 @media (max-width: 1200px) {
+  .nav-general {
+    height: auto;
+  }
   .header-titulo {
-    margin-left: 50%;
+    margin-right: 5%;
     font-size: 3.4rem;
   }
 }
@@ -244,10 +242,6 @@ a {
 }
 
 @media (max-width: 576px) {
-  .header-fTitulo {
-    top: 55%;
-    max-height: 5vh;
-  }
   .header-titulo {
     font-size: 1.5rem;
     padding-top: 0.8%;
@@ -255,10 +249,6 @@ a {
 }
 
 @media (max-width: 435px) {
-  .header-fTitulo {
-    top: 53%;
-    max-height: 4vh;
-  }
   .header-titulo {
     font-size: 1rem;
     padding-top: 0.5%;

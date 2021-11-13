@@ -11,11 +11,10 @@ const Servicios = () => {
             alt="reunion de negocios"
           />
           <div className="header-fTitulo servicios-fTitulo">
-            <h1 className="header-titulo servicios-titulo">Consultoría</h1>
+            <h1 className="header-titulo">Consultoría</h1>
           </div>
         </div>
       </div>
-
       <div className="container">
         <div className="row">
           <div className="col-sm-8">
@@ -37,14 +36,18 @@ const Servicios = () => {
         </div>
       </div>
 
-      <div>
-        <img src="./img/pexels.png" alt="" />
+      <div className="encabezado" >
+        <div className="header-general">
+          <img
+            src="./img/pexels.png"
+            className="img-fluid"
+            alt="estudiante virtual"
+          />
+          <div className="header-fTitulo servicios-fTitulo">
+            <h1 className="header-titulo">Desarrollo de cursos</h1>
+          </div>
+        </div>
       </div>
-
-      <div className="headerServices">
-        <h1>Desarrollo de cursos</h1>
-      </div>
-
       <div className="container">
         <div className="row">
           <div className="col-sm-4">
@@ -68,21 +71,24 @@ const Servicios = () => {
         </div>
       </div>
 
-      <div>
-        <img src="./img/desCursos.png" alt="" />
+      <div className="encabezado" >
+        <div className="header-general">
+          <img
+            src="./img/desCursos.png"
+            className="img-fluid"
+            alt="clase virtual"
+          />
+          <div className="header-fTitulo servicios-fTitulo">
+            <h1 className="header-titulo">Capacitación</h1>
+          </div>
+        </div>
       </div>
-
-      <div className="headerServices">
-        <h1>Capacitación</h1>
-      </div>
-
       <div className="container">
         <div className="row">
           <div className="col-sm-8">
             <div className="textServices1">
               <h3>¿Qué te ofrecemos?</h3>
             </div>
-
             <div className="textServices">
               <p>
                 Brindamos <strong>entrenamiento</strong> para docentes y
