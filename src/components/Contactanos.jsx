@@ -59,8 +59,8 @@ const Contactanos = () => {
         </Form>
         <div className="btnSend">
           <Button>
-            <a href="mailto:pruebaFede@gmail.com">Enviar</a>
-          </Button>{" "}
+            <a href="mailto:federico.sperling@gmail.com">Enviar</a>
+          </Button>
         </div>
       </Container>
     </div>
